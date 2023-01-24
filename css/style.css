@@ -1,0 +1,260 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+.header{
+	width: auto;
+}
+
+body{
+	background: url("../images/background.jpg");
+	background-size: cover;
+	min-height: 100vh;
+	background-position: center center;
+	position: relative;
+}
+
+
+/* Navigation section */
+.navigation{
+	background-color: rgba(37,78,131, 0.7);
+	text-align: center;
+	list-style: none;
+	height: 36px;
+}
+
+.navigation li{
+	padding-top: 5px;
+	display: inline-block;
+}
+
+.navigation li a{
+	font-family: 'Audiowide', cursive;
+	color: white;
+	text-decoration: none;
+	padding: 5px 30px;
+	font-size: 20px;
+}
+
+.navigation li a:hover{
+	background: rgb(79,63,98);
+}
+
+.navigation li.selected a {
+	background-color: #0d203a;
+	color: #a3a3a3;
+}
+
+
+/* Home section */
+.container{
+	display: flex;
+	padding-top: 100px;
+	padding-right: 90px;
+	padding-left: 90px;
+}
+
+.profile-img{
+	margin-right: 50px;
+}
+
+.profile-img img{
+	width: 300px;
+	border-radius: 50%;
+}
+
+.profile-img p{
+	font-family: 'Audiowide', cursive;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.about-me{
+	width: 100%;
+	padding-left: 80px;
+	font-size: 18px;
+}
+
+.about-me h1{
+	font-family: 'Audiowide', cursive;
+	color: white;
+}
+
+.about-me p{
+	color: white;
+	text-align: justify;
+	padding: 5px 0;
+}
+
+.about-me ul{
+	color: white;
+	text-align: justify;
+	padding-left: 40px;
+}
+
+.about-me ul li{
+	text-align: justify;
+	padding: 5px 0;
+}
+
+.about-me img{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.about-me img.github{
+	width: 30px;
+	filter: invert(1);
+}
+
+.about-me img.linkedin{
+	padding-left: 10px;
+	width: 30px;
+	filter: invert(1);
+}
+
+.about-me a:visited{
+	color: #7b56a5
+}
+
+.location{
+	padding-bottom: 60px;
+}
+
+.location img{
+	vertical-align: middle;
+	width: 30px;
+	filter: invert(1);
+}
+
+.location span{
+	vertical-align: middle;
+	color: white;
+}
+
+
+/* Projects section */
+.container-proj{
+	display: flex;
+	padding-top: 70px;
+	padding-bottom: 30px;
+	padding-right: 90px;
+	padding-left: 90px;
+}
+
+/* LABPLAS */
+.labplas-img{
+	padding-top: 75px;
+	margin-right: 50px;
+}
+
+.labplas-img img{
+	width: 300px;
+}
+
+/* ECOBLUE */
+.ecoblue-img{
+padding-top: 80px;
+margin-right: 50px;
+}
+	
+.ecoblue-img img{
+width: 300px;
+}
+
+/* AEROS */
+.aeros-img{
+padding-top: 70px;
+margin-right: 50px;
+}
+		
+.aeros-img img{
+width: 300px;
+}
+
+/* K2D */		
+.k2d-img{
+padding-top: 65px;
+margin-right: 50px;
+}
+			
+.k2d-img img{
+width: 300px;
+}
+	
+/* PORTXXI */			
+.portxxi-img{
+padding-top: 75px;
+margin-right: 50px;
+}
+				
+.portxxi-img img{
+width: 300px;
+}
+
+.proj{
+	width: 100%;
+	padding-left: 80px;
+	font-size: 18px;
+}
+
+.proj h1{
+	font-family: 'Audiowide', cursive;
+	color: white;
+}
+
+.proj p{
+	color: white;
+	text-align: justify;
+	padding: 5px 0;
+}
+
+
+/* Publications section */
+.container-publ{
+	display: flex;
+	padding-top: 70px;
+	padding-bottom: 30px;
+	padding-right: 90px;
+	padding-left: 90px;
+	
+	color: white;
+	font-size: 60px;
+}
+
+
+/* Blog section */
+.container-blog{
+	display: flex;
+	padding-top: 70px;
+	padding-bottom: 30px;
+	padding-right: 90px;
+	padding-left: 90px;
+	
+	color: white;
+	font-size: 60px;
+}
+
+
+/* Footer section */
+.footer{
+	height: 36px;
+	background-color: rgba(4,8,14,0.7);
+	position: absolute;
+    bottom: 0;
+	width: 100%
+}
+
+.footer p{
+color: white;
+text-align: center;
+padding-top: 10px;
+}
+
+
+

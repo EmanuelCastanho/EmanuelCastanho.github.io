@@ -118,8 +118,9 @@ body{
 	filter: invert(1);
 }
 
-.about-me a:visited{
-	color: #7b56a5
+.about-me a{
+	color: #7b56a5;
+	text-decoration: none;
 }
 
 .location{
@@ -159,42 +160,42 @@ body{
 
 /* ECOBLUE */
 .ecoblue-img{
-padding-top: 80px;
-margin-right: 50px;
+	padding-top: 80px;
+	margin-right: 50px;
 }
 	
 .ecoblue-img img{
-width: 300px;
+	width: 300px;
 }
 
 /* AEROS */
 .aeros-img{
-padding-top: 70px;
-margin-right: 50px;
+	padding-top: 70px;
+	margin-right: 50px;
 }
 		
 .aeros-img img{
-width: 300px;
+	width: 300px;
 }
 
 /* K2D */		
 .k2d-img{
-padding-top: 65px;
-margin-right: 50px;
+	padding-top: 65px;
+	margin-right: 50px;
 }
 			
 .k2d-img img{
-width: 300px;
+	width: 300px;
 }
 	
 /* PORTXXI */			
 .portxxi-img{
-padding-top: 75px;
-margin-right: 50px;
+	padding-top: 75px;
+	margin-right: 50px;
 }
 				
 .portxxi-img img{
-width: 300px;
+	width: 300px;
 }
 
 .proj{
@@ -217,14 +218,30 @@ width: 300px;
 
 /* Publications section */
 .container-publ{
-	display: flex;
 	padding-top: 70px;
 	padding-bottom: 30px;
-	padding-right: 90px;
-	padding-left: 90px;
-	
+	width: 80%;
+    margin: 0 auto;
+}
+
+.container-publ h1{
+	font-family: 'Audiowide', cursive;
+	text-align: center;
 	color: white;
-	font-size: 60px;
+	font-size: 50px;
+}
+
+.container-publ ul{
+	color: white;
+	text-align: justify;
+	padding: 20px 0;
+	font-size: 40px;
+	font-size: 20px;
+}
+
+.container-publ a{
+	text-decoration: none;
+	color: #7b56a5;
 }
 
 

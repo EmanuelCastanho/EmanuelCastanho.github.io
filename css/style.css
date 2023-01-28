@@ -150,7 +150,7 @@ body{
 
 /* LABPLAS */
 .labplas-img{
-	padding-top: 75px;
+	padding-top: 180px;
 	margin-right: 50px;
 }
 
@@ -160,7 +160,7 @@ body{
 
 /* ECOBLUE */
 .ecoblue-img{
-	padding-top: 80px;
+	padding-top: 150px;
 	margin-right: 50px;
 }
 	
@@ -170,7 +170,7 @@ body{
 
 /* AEROS */
 .aeros-img{
-	padding-top: 70px;
+	padding-top: 110px;
 	margin-right: 50px;
 }
 		
@@ -180,7 +180,7 @@ body{
 
 /* K2D */		
 .k2d-img{
-	padding-top: 65px;
+	padding-top: 120px;
 	margin-right: 50px;
 }
 			
@@ -190,7 +190,7 @@ body{
 	
 /* PORTXXI */			
 .portxxi-img{
-	padding-top: 75px;
+	padding-top: 170px;
 	margin-right: 50px;
 }
 				
@@ -249,12 +249,36 @@ body{
 .container-blog{
 	display: flex;
 	padding-top: 70px;
-	padding-bottom: 30px;
-	padding-right: 90px;
-	padding-left: 90px;
+	padding-bottom: 100px;
+	justify-content: center;
+}
+
+.container-blog iframe{
+	width: 500px;
+	height: 500px;
+}
+
+.blog-1{
+	padding-right: 15px;
 	
+}
+
+.blog-1 h1{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: 'Audiowide', cursive;
 	color: white;
-	font-size: 60px;
+}
+
+.blog-2{
+	padding-left: 15px;
+}
+
+.blog-2 h1{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: 'Audiowide', cursive;
+	color: white;
 }
 
 
